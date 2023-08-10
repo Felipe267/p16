@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+    
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.links {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 7.5px;
+}
+
+.cabeca{
+    text-align: center;
+    background: url(nnn.png);
+    background-size: cover;
+}
+
+.img-cabeca{
+    margin: 40px 0px 0px 0px; 
+    border: 7px solid white; 
+    border-radius: 20px; 
+    width: 350px; 
+    height: 250px;
+}
+
+h1{
+    color: white;
+    padding-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+article h2 {
+    color: #333;
+}
+
+article p {
+    color: #666;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+    background-color: #FFF;
+    font-size: 17px;
+    padding: 0;
+}
+
+.hidden-content {
+    display: none;
+}
+
+/* Adicionar estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px 0;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    img{
+        max-width: 300px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="links">
+        <nav>
+            <ul>
+                <li><a href="index.html">Estação de Tratamanto de Esgoto e Efluentes</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="cabeca">
+        <img src="bnt.jpg" alt="Blog Etec" class="img-cabeca">
+        <h1>Blog Etec</h1>
+    </div>
+    
+    <main class="container">
+        <!-- 1 -->
+        <article>
+            <h2>Planta do Projeto</h2>
+            <p>Em nossa pesquisa utilizamos uma planta disponibilizada no site da Sabesp:</p>
+            <div class="hidden-content">
+                <img src="ttt.png" alt="">
+                <p>Fonte <a href="https://www.sabesp.com.br/site/interna/Default.aspx?secaoId=49">Sabesp</a></p>
+            </div>
+            <button class="leiaMaisBtn">Leia mais</button>  
+        </article>
+        <!-- 2 -->
+        <article>
+            <h2>Estação de tratamento</h2>
+            <p>O nosso projeto se consiste em produzir uma estação de tratamento de esgoto (ETE) em uma cidade ficcional de 50 mil habitantes.</p>
+            <div class="hidden-content">
+                <p>Para confeccionar uma Estação de tratamento o primeiro passo a ser dado é saber a vazão de 50 mil pessoas. Em média uma pessoa gasta 160 litros de esgoto por dia então 50 mil pessoas gastam 8 milhões de litros por dia de acordo com o site: <a href="https://www.aio.com.br/questions/content/uma-pessoa-gera-em-media-160-litros-de-esgoto-por-dia-esse-valor-e-obtido">aio</a></p> 
+            </div>
+            <button class="leiaMaisBtn">Leia mais</button>
+        </article>
+        <!-- 3 -->
+        <article>
+            <h2>Gradeamento</h2>
+            <p>A primeira etapa da estação de tratamento é a partir da gradeação impedindo que dejeitos com uma expessura elavada sejam intersectados pela grade.</p>
+            <div class="hidden-content">
+                <p>Em geral são feitos dois processos de gradeamento, o primeiro com grades grosseiras e o segundo com grades médias, as grades grosseiras medem de 4 à 10cm de espessura enquanto as grades médias medem de 2 à 4cm de espessura.</p>
+                <img src="ggg.jpg" alt="">
+                <p>Fonte <a href="#">PDF Base</a></p>
+            </div>
+            <button class="leiaMaisBtn">Leia mais</button>
+        </article>
+        <!-- 4 -->
+        <!-- <article>
+            <h2>Elevatoria</h2>
+        </article> -->
+        <!-- 5 -->
+        <!-- <article>
+            <h2>Caixa de Areia</h2>
+        </article> -->
+        <!-- 6 -->
+        <!-- <article>
+            <h2>Decantador</h2>
+        </article> -->
+        <!-- 7 -->
+        <!-- <article>
+            <h2>Lodo</h2>
+        </article> -->
+
+    </main>
+    <footer>
+        <p>&copy; 2023 ETE. Todos os direitos reservados.</p>
+
+        <nav>
+            <ul>
+                <li><h4><a href="integrantes.html">Integrantes</a></h4></li>
+                <li><h4><a href="">Contato</a></h4></li>
+                <li><h4><a href="">Projeto</a></h4></li> 
+            </ul>
+        </nav>
+    </footer>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const leiaMaisBtns = document.querySelectorAll('.leiaMaisBtn');
+
+    leiaMaisBtns.forEach(function(btn) {
+        const hiddenContent = btn.previousElementSibling;
+
+        btn.addEventListener('click', function() {
+            if (hiddenContent.style.display === 'none') {
+                hiddenContent.style.display = 'block';
+                btn.textContent = 'Leia menos';
+            } else {
+                hiddenContent.style.display = 'none';
+                btn.textContent = 'Leia mais';
+            }
+        });
+    });
+});
+
+    </script>
+</body>
+</html>
