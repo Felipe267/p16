@@ -22,13 +22,11 @@ body {
 .carousel {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 100%;
-    height: auto;
 }
 
 .carousel img {
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: auto;
 }
 
 .links {
@@ -103,15 +101,15 @@ article p {
 }
 
 /* Exemplo de media query para dispositivos com largura máxima de 600px */
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .carousel-container {
-    max-width: 100%; /* Preencher a largura da tela */
-    height: auto;
+    width: 100%; /* Preencher a largura da tela */
   }
 
   .carousel img {
-    width: auto; /* Preencher a largura da área do carrossel */
-    height: 400px; /* Altura automática para manter a proporção */
+    width: 400px; /* Preencher a largura da área do carrossel */
+    height: auto; /* Altura automática para manter a proporção */
+    margin: 0;
   }
 }
 
@@ -137,7 +135,7 @@ article p {
         <div class="carousel">
             <img src="Aurélio.jpg" alt="Imagem 1">
             <img src="Daniel.jpg" alt="Imagem 2">
-            <img src="Felipe.jpg" alt="Imagem 3">
+            <img src="sam.jpg" alt="Imagem 3">
             <img src="Thiago.jpg" alt="Imagem 3">
         </div>
         </div>
